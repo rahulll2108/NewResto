@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&display=swap');
+
+
+.navbar{
+    background-color: #fff !important; 
+    padding-top: 20px; 
+}
+
+.logo{ 
+    width: 150px; 
+}
+
+.navbar-nav li a{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+
+.normal{
+    background-color: #EA6D27;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px 3px 12px 3px ;
+}
+
+.navbar .btn{
+    margin-right: 15px;
+}
+
+.banner-img1{
+    width: 70px;
+    height: 70px;
+}
+
+.banner-section .banner-img2 img{
+    width: 400px;
+    position: relative;
+    z-index: 99;
+}
+
+.banner-section .dish img{
+    width: 300px;
+    position: absolute;
+    top: 480px;
+    right: 520px;
+    z-index: 999;
+}
+
+.banner-section .group-flower img{
+    width: 280px;
+    position: absolute;
+    top: 200px;
+    left: 560px;
+}
+
+.banner-section .group-flo img{
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    width: 250px;
+}
+
+.banner-section h1{
+    font-size: 52px;
+    font-weight: 700;
+    color: #101A24;
+    margin-bottom: 10px;
+    font-family: "David Libre", serif;
+
+}
+
+.banner-section p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5C6574;
+    line-height: 29px;
+    width: 70%;
+}
+
+
+.abnormal{
+    background-color: #101A24;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px 3px 12px 3px ;
+}
+
+.cuisine-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.para-text{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.para-text img{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+}
+
+.para-text h3{
+    font-family: "David Libre", serif;
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.para-text p{
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.card-img img{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+    position: relative;
+}
+
+.price img{
+    position: absolute;
+    width: 90px;
+    right: -8px;
+}
+
+.card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vector img{
+    width: 60px;
+    position: absolute;
+    right: -30px;
+    bottom: -20px;
+}
+
+.vector1 img{
+    width: 100px;
+    position: absolute;
+    right: -20px;
+    bottom: -40px;
+}
+
+.vector2 img{
+    width: 80px;
+    position: absolute;
+    right: 100px;
+    bottom: -40px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-section{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 80px;
+}
+
+.card{
+    margin: 50px 10px;
+    border: 2px solid white;
+    border-radius: 30px 0 30px 0;
+    background: #f3f3f3;
+    z-index: 0;
+}
+
+.cuisine{
+    background: #f3f3f3;
+    padding-bottom: 100px;
+}
+
+.card h3{
+    font-family: "David Libre", serif;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.card p{
+    font-family: "League Spartan", sans-serif;
+    font-size: 15px;
+    color: #5C6574;
+}
+
+.bg-image2 img{
+    width: 200px;
+}
+
+.bg-image2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leaves img{
+    width: 100%;
+}
+
+.leaves{
+    position: relative;
+}
+
+.leaf1{
+    position: absolute;
+    top: 140px;
+    left: 10px;
+}
+
+.leaf2{
+    position: absolute;
+    top: 380px;
+    left: 50px;
+}
+
+.leaf3{
+    position: absolute;
+    top: 80px;
+    right: -20px;
+}
+
+.leaf4{
+    position: absolute;
+    bottom: 20px;
+    right: 180px;
+}
+
+.leaf1 img, .leaf4 img{
+    width: 60px;
+}   
+
+.leaf2 img, .leaf3 img{
+    width: 120px;
+}
+
+.leaf-para h2{
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 30px;
+    color: #101A24;
+    margin-bottom: 10px;
+    font-family: "David Libre", serif;
+    line-height: 40px;
+}
+
+.leaf-para p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 50px 20px 30px;
+    color: #5C6574;
+}
+
+.leaf-para .btn{
+    padding-left: 25px;
+}
+
+.cook{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.cook h2{
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 20px;
+    color: #101A24;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: "David Libre", serif;
+    line-height: 40px;
+
+}
+
+.cook .cook-test p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 50px 20px 20px;
+    color: #5C6574;
+    padding: 20px 0 20px 20px;
+    line-height: 20px;
+    width: 70%;
+}
+
+.cook .chef img{
+    width: 100%;
+}
+
+.cook .check-box{
+    margin-left: 20px;
+}
+
+.cook .check-box img{
+    width: 20px; 
+    margin-right: 30px;
+}
+
+.cook-test .garlic img{
+    width: 250px;
+    position: absolute;
+    top: -20px;
+    left: 60px;
+}
+
+.cook-test .garlic2 img{
+    width: 120px;
+    position: absolute;
+    top: 50px;
+    left: -75px;
+}
+
+.reviews{
+    background: #f3f3f3;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.reviews .review-text h2{
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 20px;
+    color: #101A24;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: "David Libre", serif;
+    line-height: 40px;
+    text-align: center;
+}
+
+.reviews .review-text p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 50px;
+    color: #5C6574;
+    padding: 20px 0 20px 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.review-text img{
+    position: absolute;
+    width: 450px;
+    top: 80px;
+    left: 0px;
+}
+
+.slider-card-img img{
+    padding-top: 25px;
+    width: 80px !important;
+}
+
+.slider-card{
+    background-color: #fff;
+    text-align: center;
+    border-radius: 50px 5px 50px 5px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    margin-right: 15px;
+}
+
+.slider-card p{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.newsletter-img{
+    background-image: url(/img/news.png);
+    width: 102%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+
+.news-text h2{
+    color: #fff;
+    font-family: "David Libre", serif;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.newsletter-img .form{
+    display: flex;
+    width: 50%;
+}
+
+.newsletter-img input{
+    height: 60px;
+    border-radius: 15px;
+    padding-left: 20px;
+    outline: none;
+    border: 1px solid transparent;
+    width: 500px;
+}
+
+.normal2{
+    background-color: #EA6D27;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px ;
+}
+
+.news-button button{
+    margin-top: 8px;
+    margin-left: -120px;
+}
+
+.footer{
+    margin: 50px 0;
+}
+
+.footer h2{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.footer .timing h2{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.footer .timing p{
+    color: #5C6574;
+}
+
+.footer .f-logo img{
+    width: 150px;
+}
+
+.footer .f-logo p{
+    padding: 20px 40px 20px 0;
+    color: #5C6574;
+}
+
+.footer .copyright p{
+    padding: 20px 40px 20px 0;
+    color: #5C6574;
+}
+
+.footer .menu a{
+    font-size: 13px;
+    margin: 0 96px 8px 0;
+    /* padding: 20px 0px; */
+    line-height: 30px;
+    text-decoration: none; 
+    color: #5C6574;
+    margin-bottom: 10px;
+}
+
+.footer .dishes a{
+    font-size: 13px;
+    line-height: 30px;
+    margin-right: 80px;
+    text-decoration: none;
+    color: #5C6574;
+    margin-bottom: 10px;
+}
