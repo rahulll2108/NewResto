@@ -383,7 +383,7 @@
 }
 
 .newsletter-img{
-    background-image: url(img/news.png);
+    background-image: url("/img/news.png");
     width: 102%;
     height: 400px;
     background-size: cover;
